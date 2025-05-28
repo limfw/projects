@@ -14,8 +14,9 @@ This repository supports both **research experiments** and **university-level te
 Install Python dependencies:
 ```bash
 pip install -r requirements.txt
-
+```
 Or create a conda environment:
 ```bash
 conda env create -f environment.yml
 conda activate myenv
+```
