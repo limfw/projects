@@ -87,4 +87,8 @@ pip install -r requirements.txt
 |-------|-------------------------------|-------|
 |.pkl	|Store fitted clustering models	|joblib |
 ```
+<<<<<<< HEAD
 Other formats (e.g., .onnx) are less relevant in unsupervised settings.
+=======
+Other formats (e.g., .onnx) are less relevant in unsupervised settings.
+>>>>>>> ac0d5ff229ca5c38cdc709e2822bd70eb5bbb009
