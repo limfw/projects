@@ -34,33 +34,33 @@ Each experiment involves **the same base dataset**, modified under different str
 
 ###  Phase 1: Normal Data (clean structure)
 
-- 🔹 No noise, no collinearity
-- 🔹 Apply Linear, Lasso, and Ridge regression
-- 🔹 Compare coefficients, R², and prediction accuracy
+- No noise, no collinearity
+- Apply Linear, Lasso, and Ridge regression
+- Compare coefficients, R², and prediction accuracy
 
 ---
 
 ###  Phase 2: High Collinearity
 
-- 🔹 Add highly correlated features
-- 🔹 Observe overfitting and instability in Linear Regression
-- 🔹 Observe how Lasso/Ridge manage multicollinearity
+- Add highly correlated features
+- Observe overfitting and instability in Linear Regression
+- Observe how Lasso/Ridge manage multicollinearity
 
 ---
 
 ###  Phase 3: Sparse Data
 
-- 🔹 Introduce many irrelevant or zero-value features
-- 🔹 Observe Lasso's feature selection behavior
-- 🔹 Compare model performance and interpretability
+- Introduce many irrelevant or zero-value features
+- Observe Lasso's feature selection behavior
+- Compare model performance and interpretability
 
 ---
 
 ###  Phase 4: High-Dimensional Data
 
-- 🔹 Increase number of features >> number of samples
-- 🔹 Analyze behavior of all three regressors
-- 🔹 Discuss overfitting and regularization effectiveness
+- Increase number of features >> number of samples
+- Analyze behavior of all three regressors
+- Discuss overfitting and regularization effectiveness
 
 ---
 
@@ -91,10 +91,10 @@ python Scripts/evaluate.py --scenario normal --model linear
 Repeat the same for lasso, ridge, and other scenarios (collinear, sparse, highdim).
 
 ## Evaluation Metrics
-🔹 Mean Squared Error (MSE)
-🔹 Root Mean Squared Error (RMSE)
-🔹 R² Score
-🔹 Coefficient sparsity (for Lasso)
+- Mean Squared Error (MSE)
+- Root Mean Squared Error (RMSE)
+- R^2 Score
+- Coefficient sparsity (for Lasso)
 
 
 ## Using a Trained Model on New Data
