@@ -103,7 +103,7 @@ After training, you can apply your saved model to real or unseen data using:
 
 ```bash
 python Scripts/model.py
-```
+
 ---
 
 ##  Model Saving and Deployment
@@ -116,7 +116,7 @@ After training, each model is saved in the `Model/` folder using the `.pkl` form
 # Saved automatically after training:
 Model/linear_phase1_normal.pkl
 Model/ridge_phase2_collinear.pkl
-...
+
 ```
 
 These files can be loaded in other scripts or applications for prediction:
@@ -138,7 +138,7 @@ model = joblib.load('Model/ridge_phase2_collinear.pkl')
 Choose the format based on your project's requirements. For regression models built with `scikit-learn`, `.pkl` and `.joblib` are typically the best choices.
 
 ---
-- Discussions (for Students)
+## Discussions (for Students)
 - When does Linear Regression fail?
 - Why does Lasso set some coefficients to zero?
 - How does Ridge handle correlated features differently?
@@ -151,4 +151,3 @@ See requirements.txt for all dependencies:
 pip install -r requirements.txt
 ```
 
-```
