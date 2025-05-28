@@ -139,40 +139,12 @@ Choose the format based on your project's requirements. For regression models bu
 
 ---
 
-You can place this section after your **"How to Run"** or **"Evaluation and Results"** section in the README. Let me know if you'd like me to update the full README in one block with this inserted.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## Discussions (for Students)
-🔹 When does Linear Regression fail?
-🔹 Why does Lasso set some coefficients to zero?
-🔹 How does Ridge handle correlated features differently?
-🔹 Why do regularized models outperform in high-dimensional spaces?
-🔹 What data structure patterns call for regularization?
+- When does Linear Regression fail?
+- Why does Lasso set some coefficients to zero?
+- How does Ridge handle correlated features differently?
+- Why do regularized models outperform in high-dimensional spaces?
+- What data structure patterns call for regularization?
 
 ## Requirements
 See requirements.txt for all dependencies:
