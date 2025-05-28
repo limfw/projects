@@ -1,0 +1,41 @@
+# === Core Python & Scientific Computing ===
+numpy
+pandas
+scipy
+joblib
+tqdm
+
+# === Machine Learning ===
+scikit-learn
+xgboost
+lightgbm
+catboost
+statsmodels
+
+# === Deep Learning ===
+tensorflow
+keras
+tensorboard
+
+# === Hyperparameter Tuning ===
+optuna
+hyperopt
+keras-tuner
+
+# === Data Generation & Simulation ===
+faker
+sdv
+ctgan
+
+# === Visualization & Plotting ===
+matplotlib
+seaborn
+plotly
+
+# === Teaching & Notebooks ===
+jupyterlab
+notebook
+ipython
+
+# === Experiment Tracking & Collaboration ===
+mlflow

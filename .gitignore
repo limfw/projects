@@ -1,0 +1,51 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VS Code settings
+.vscode/
+*.code-workspace
+
+# macOS system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+desktop.ini
+
+# Logs and debug files
+*.log
+
+# Environment or secret config files
+.env
+.env.*
+
+# Model outputs and experiment results
+*.pkl
+*.h5
+*.pt
+*.onnx
+*.joblib
+
+# DVC and MLflow folders (optional if using)
+mlruns/
+.dvc/
+
+# PyTest or unittest caches
+.pytest_cache/
+coverage/
+
+# Python egg metadata
+*.egg-info/
+dist/
+build/
