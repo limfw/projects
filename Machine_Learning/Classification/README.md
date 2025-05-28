@@ -1,25 +1,4 @@
-## Suggested Folder Structure
-
-```text
-ML/
-└── Classification/
-    ├── Data/                    # Contains generated datasets
-    ├── Model/                   # Trained model files (.pkl)
-    ├── Images/                  # Confusion matrices, decision boundary plots
-    ├── Scripts/
-    │   ├── generate_data.py     # Creates binary classification datasets
-    │   ├── classification_pipeline.py  # Combined training + evaluation
-    │   └── model.py             # Used only for predicting new data later
-    ├── requirements.txt
-    └── README.md
-```
-
----
-
-## README.md
-
-````markdown
-# Classification Modeling Project (ML/Classification)
+### Classification Modeling Project (ML/Classification)
 
 This module implements three core classification algorithms to explore how data structure affects classification performance.
 
@@ -30,7 +9,7 @@ This module implements three core classification algorithms to explore how data 
 
 ---
 
-## Learning Objectives
+### Learning Objectives
 
 - Understand the fundamental behavior of 3 different classification paradigms:
   - Distance-based (KNN)
@@ -41,7 +20,26 @@ This module implements three core classification algorithms to explore how data 
 
 ---
 
-## Dataset Scenarios
+### Project Structure
+
+```text
+ML/
+└── Classification/
+    ├── Data/                        # Contains generated datasets
+    ├── Model/                       # Trained model files (.pkl)
+    ├── Images/                      # Confusion matrices, decision boundary plots
+    ├── Scripts/
+    │   ├── generate_data.py         # Creates binary classification datasets
+    │   ├── classification_pipeline.py  # Combined training + evaluation
+    │   └── model.py                 # Used only for predicting new data later
+    ├── requirements.txt
+    └── README.md
+```
+
+
+---
+
+### Dataset Scenarios
 
 | Phase | Dataset Type           | Purpose                             |
 |-------|------------------------|-------------------------------------|
@@ -54,7 +52,7 @@ Each dataset is generated using `make_classification()` from `sklearn.datasets`.
 
 ---
 
-## How to Run
+### How to Run
 
 ### Step 1: Generate All Datasets
 ```bash
@@ -69,7 +67,7 @@ python Scripts/classification_pipeline.py --phase phase1_clean --model knn
 
 ---
 
-## Output
+### Output
 
 - Trained model saved in `Model/`
 - Plot saved in `Images/`
@@ -77,7 +75,7 @@ python Scripts/classification_pipeline.py --phase phase1_clean --model knn
 
 ---
 
-## Requirements
+### Requirements
 
 See `requirements.txt`:
 
@@ -87,7 +85,7 @@ pip install -r requirements.txt
 
 ---
 
-## Model Saving Formats
+### Model Saving Formats
 
 | Format  | Use Case                      | Library  |
 | ------- | ----------------------------- | -------- |
@@ -97,11 +95,7 @@ pip install -r requirements.txt
 This project uses `.pkl` for simplicity and speed.
 
 ---
-
-
-````
----
-## Requirements.txt
+### Requirements.txt
 
 ```txt
 numpy
@@ -110,6 +104,6 @@ scikit-learn
 matplotlib
 seaborn
 joblib
-````
+```
 
 ---
