@@ -37,17 +37,18 @@ ML/
 
 
 ### Dataset Scenarios
-### Dataset Scenarios
-
-| Phase          | Dataset Type                  | Purpose                          |
-|----------------|-------------------------------|----------------------------------|
-| phase1_blobs   | Well-separated spherical blobs | Best fit for K-Means             |
-| phase2_overlap | Overlapping elliptical blobs   | GMM handles this well            |
-| phase3_noise   | Sparse data with outliers      | Test DBSCAN robustness           |
-| phase4_varied  | Uneven densities or bandwidths | Good for DBSCAN / Mean Shift     |
+```
+| Phase          | Dataset Type                   | Purpose                           |
+|----------------|--------------------------------|-----------------------------------|
+| phase1_blobs   | Well-separated spherical blobs | Best fit for K-Means              |
+| phase2_overlap | Overlapping elliptical blobs   | GMM handles this well             |
+| phase3_noise   | Sparse data with outliers      | Test DBSCAN robustness            |
+| phase4_varied  | Uneven densities or bandwidths | Good for DBSCAN / Mean Shift      |
 | phase5_nested  | Nested or chaining structure   | Best visualized with Hierarchical |
 
 Each dataset is generated using make_blobs(), make_moons(), or make_classification() from sklearn.datasets and custom configurations.
+```
+
 
 ### How to Run
 Step 1: Generate All Datasets
@@ -81,6 +82,9 @@ pip install -r requirements.txt
 
 
 ### Model Saving Formats
-|Format	|Use Case|	Library|
-|.pkl	|Store fitted clustering models	|joblib|
+```
+|Format	|Use Case                       |Library|
+|-------|-------------------------------|-------|
+|.pkl	|Store fitted clustering models	|joblib |
+```
 Other formats (e.g., .onnx) are less relevant in unsupervised settings.
